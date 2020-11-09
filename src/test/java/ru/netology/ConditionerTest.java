@@ -38,7 +38,7 @@ class ConditionerTest {
         Conditioner conditioner = new Conditioner();
         conditioner.setCurrentTemperature(6);
         conditioner.decreaseCurrentTemperature();
-        conditioner.decreaseCurrentTemperature();
+         conditioner.decreaseCurrentTemperature();
         assertEquals(5, conditioner.getCurrentTemperature());
     }
 }
