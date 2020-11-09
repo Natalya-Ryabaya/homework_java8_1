@@ -67,7 +67,7 @@
                 <rule>
                     <limits>
                         <limit>
-                            <counter>BRANCH</counter>
+                            <counter>cyclomatic complexity</counter>
                             <value>COVEREDRATIO</value>
                             <minimum>100%</minimum>
                         </limit>
